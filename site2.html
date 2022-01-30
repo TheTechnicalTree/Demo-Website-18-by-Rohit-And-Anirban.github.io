@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Where the mind is without Fear</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Life is a beach</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="explore.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Sky above , sand below , peace within</h2>
+            <h3>Find your wave</h3>
+            <p>There is nothing more beautiful than the way the ocean refuses to stop kissing the shore line , no matter how many times it is sent away.</p>
+            <a href="https://en.wikipedia.org/wiki/Seashore">Explore</a>
+
+
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com"><img src="f4.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com"><img src="t3.3.jpg" alt=""></a></li>
+            <li><a href="https://www.twitter.com"><img src="t3.png" alt=""></a></li>
+
+        </ul>
+    </section>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="site.html">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle=document.querySelector('.toggle');
+        const showcase=document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+
+
+        })
+    </script>
+
+
+</body>
+
+</html>
